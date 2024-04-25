@@ -1,0 +1,252 @@
+// Profile.scss
+
+.profile1{
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .add-event-site-btn {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .btn {
+    display: inline-block;
+    font: inherit;
+    padding: 10px !important;
+    font-weight: 600;
+    background: black;
+    border: none;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+  }
+  .event-sites {
+     width: 80%;
+     margin: auto;
+  }
+  .event-site-header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .profile-edit-btn {
+    order: 1;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+.profileCard {
+  .btn {
+    display: inline-block;
+    font: inherit;
+    padding: 10px !important;
+    font-weight: 600;
+    background: black;
+    border: none;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+  }
+  .profile-edit-btn {
+    order: 1;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  padding: 10px !important;
+  font-weight: 600;
+  background: black;
+  border: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.profile {
+  padding: 20px;
+  // .btn {
+  //   display: inline-block;
+  //   font: inherit;
+  //   padding: 10px !important;
+  //   font-weight: 600;
+  //   background: black;
+  //   border: none;
+  //   color: white;
+  //   padding: 0;
+  //   cursor: pointer;
+  // }
+  // .profile-edit-btn {
+  //   order: 1;
+  //   padding: 0;
+  //   text-align: center;
+  //   margin-top: 1rem;
+  // }
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    button {
+      
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .saveAndClear {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      gap: 10px;
+    }
+    .icon {
+      font-size: 15px;
+    }
+
+    .edit-btn {
+      color: white;
+      margin-left: 10px;
+    }
+  }
+
+  .profile-details {
+    p {
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .event-sites {
+    margin-top: 40px;
+
+    .event-site-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .event-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .add-event-site-btn {
+      background-color: #555;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  }
+
+  .confirmed-bookings {
+    h2 {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+
+i.Nav {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  height: 77px;
+}
+.Nav-menus {
+  display: flex;
+  flex-direction: row;
+  height: 77px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 26px 40px;
+}
+
+/* Base Styles */
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  
+  background: black;
+  border: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.profile {
+  padding: 5rem 0;
+}

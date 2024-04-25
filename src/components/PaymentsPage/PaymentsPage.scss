@@ -1,0 +1,48 @@
+.payments-page {
+    padding: 20px;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .event-details {
+      margin-bottom: 20px;
+  
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  
+    .payment-options {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+  
+      .payment-option {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #f9f9f9;
+        }
+  
+        .payment-icon {
+          width: 40px;
+        //   height: 40px;
+          // Add common styles for payment icons
+        }
+  
+        .payment-label {
+          font-size: 1.1rem;
+          // Add common styles for payment labels
+        }
+      }
+    }
+  }
+  

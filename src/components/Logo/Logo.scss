@@ -1,0 +1,27 @@
+// 875px
+$mediumScreen: 54.6875em;
+.navbar {
+    font-family: "Alata", sans-serif;
+    margin: 6.4rem 12.8rem;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    // display: flex;
+    @media screen and (max-width: $mediumScreen) {
+        margin: auto;
+        margin: 3.4rem 3rem;
+        font-size: 1rem;
+    }
+    .logo {
+        z-index: 99;
+        // position: absolute;
+        // border: 4px solid red;
+        @media screen and (max-width: $mediumScreen) {
+            width: 15rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
