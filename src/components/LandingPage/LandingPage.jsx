@@ -4,7 +4,6 @@ import CreationSection from "./components/CreationSection/CreationSection";
 import GallarySection from "./components/GallarySection/GallarySection";
 import IntractiveSection from "./components/IntractiveSection/IntractiveSection";
 import "./LandingPage.scss";
-
 import Media from "react-media";
 
 
